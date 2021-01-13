@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Signika", sans-serif;
+  text-align: center;
+  background-color: #212121;
+}
+
+.header {
+  background-color: #14ffec;
+  margin: 0;
+  font-size: 40px;
+}
+
+.playerTitle {
+  margin-top: 0;
+  text-align: center;
+  color: #ff2e63;
+  padding-top: 20px;
+}
+
+.subMessage {
+  color: #14ffec;
+}
+
+.winMessage {
+  font-size: 35px;
+}
+
+.cpuScreen {
+  height: 350px;
+  width: 100%;
+  background-color: #212121;
+}
+
+.divisionLine {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.playerScreen {
+  height: 490px;
+  width: 100%;
+  background-color: #212121;
+}
+
+.showBet {
+  height: 100px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.optImage {
+  width: 100%;
+  height: 100%;
+}
+
+.optionScreen {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.bttOption {
+  height: 100px;
+  width: 6%;
+  margin-left: 30px;
+  background-color: #212121;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+.statsInfo {
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  display: block;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ff2e63;
+  color: white;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+}
+
+tr {
+  background-color: #f2f2f2;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+}
+
+.hidden {
+  display: hidden;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper and Scissor</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="header">Rock, Paper & Scissor</h1>
+
+    <div class="cpuScreen">
+        <div class="statsInfo">
+           <table>
+               <tr>
+                   <th>Info</th>
+                   <th>Points</th>
+               </tr>
+               <tr>
+                <td>Player 1</td>
+                <td id="playerScore">0</td>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td id="cpuScore">0</td>
+            </tr>
+            <tr>
+                <td>Draw</td>
+                <td id="drawScore">0</td>
+            </tr>
+           </table>
+        </div>
+
+        <h1  class="playerTitle">CPU</h1>
+        <div class="showBet">
+            <img src="./images/paper.png" alt="paper" class="optImage hidden" id="cpuChoice">
+        </div>
+
+        <h2 class="subMessage">CPU Selected</h2>
+    </div>
+
+    <div class="divisionLine">
+        <span class="winMessage">Let's start!</span>
+    </div>
+
+    
+
+    <div class="playerScreen">
+        <h1  class="playerTitle">PLAYER 1</h1>
+        
+        <div class="showBet">
+            <img src="./images/paper.png" alt="paper" class="optImage" id='selectedOption'>
+        </div>
+
+
+        <h2 class="subMessage">Select your option</h2>
+
+        <div class="optionScreen">
+            <button class="bttOption" id="paperBtt"><img src="./images/paper.png" alt="paper" class="optImage"></button>
+            <button class="bttOption" id="rockBtt"><img src="./images/rock.png" alt="paper" class="optImage"></button>
+            <button class="bttOption" id="scissorBtt"><img src="./images/scissor.png" alt="paper" class="optImage"></button>
+           
+        </div>
+
+    </div>
+
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
